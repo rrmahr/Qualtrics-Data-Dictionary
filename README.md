@@ -3,7 +3,7 @@ This code can be utilized to generate a data dictionary in csv format to accompa
 
 Survey details including Variable Naming, recode values, and value labels can be exported using the Get Survey API from the Qualtrics API (documentation here: https://api.qualtrics.com/9d0928392673d-get-survey) if an account has API access. However, the export is in json format and requires additional processing to be easily legible and used to accompany survey responses, particularly when the data is categorical.
 
-This code parses the data from the API export into a csv file at the survey response option level per survey question including the following information:
+This code parses the data from the API export into a csv file at the survey response option level per survey question for several commonly used Qualtrics question types including the following information:
 - Var_Name: variable / survey question name
 - Var_Label: survey question text / description of variable
 - Value: numeric answer choice value
