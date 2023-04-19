@@ -12,5 +12,5 @@ This code parses the data from the API export into a csv file at the survey resp
 - Var_Order: order the question / variable appears in the survey
 - Question_Type: type of question in Qualtrics
 
-See a sample export here: 
+See a sample export here: https://github.com/rrmahr/Qualtrics-Data-Dictionary/blob/main/data_dictionary_export_example.csv
 
