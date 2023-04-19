@@ -1,5 +1,5 @@
 Var_Name,Var_Label,Value,Value_Label,Data_Type,Var_Order,Question_Type
-Birthdate,"What is your date of birth? MM/DD/YYYY !function(f,b,e,v,n,t,s) {if(f.fbq)return;n=f.fbq=function(){n.callMethod? n.callMethod.apply(n,arguments):n.queue.push(arguments)}; if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0'; n.queue=[];t=b.createElement(e);t.async=!0; t.src=v;s=b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t,s)}(window, document,'script', 'https://connect.facebook.net/en_US/fbevents.js'); fbq('init', '595754504463767'); fbq('track', 'PageView'); fbq('track', 'Lead');",,text,STRING,1,text-entry
+Birthdate,"What is your date of birth? MM/DD/YYYY,,text,STRING,1,text-entry
 ZIPCODE,What is your zip code?,,text,STRING,2,text-entry
 Race_2,What is your race/ethnicity? (Select all that apply) - American Indian/Alaska Native,0,No,INT,3,multi-select
 Race_2,What is your race/ethnicity? (Select all that apply) - American Indian/Alaska Native,1,Yes,INT,3,multi-select
